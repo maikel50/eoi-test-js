@@ -1,10 +1,25 @@
 body {
-  background: #171717;
+  background: #fefbfb;
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-button{
-  background-color: aqua;
+.dado{
+  background-color: white;
   width: 300px;
   height: 300px;
+  cursor: pointer;
+  border: 5px solid black;
+  border-radius: 20px;
+  font-size: 80px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 30%);
+  transition: transform 0.3s;
+  
+}
+
+.dado:hover {
+  transform: rotate(9deg) scale(1.05);
+  cursor: pointer;
 }
